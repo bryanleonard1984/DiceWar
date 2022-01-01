@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Dice War</title>
+        <meta charset="utf-8" />
+        <link href="./css/DW.css" type="text/css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <h1 id="title">Dice War</h1>
+        <h3></h3>
+        <main>
+            <div class="dvscore">
+                
+                <p id="pl1">Player 1</p>                
+                <p id="pl2">Player 2</p>
+                <br />
+                <br />
+                <p id="pl1b">Score: <span id="score1">0</span></p>
+                <p id="pl2b">Score: <span id="score2">0</span></p>
+            </div>
+            <div id="images">
+                <image id="dieOne" src="./images/dw/dieBlank.jpg" alt="blank die" height="64" width="64" />
+                <image id="dieTwo" src="./images/dw/dieBlank.jpg" alt="blank die" height="64" width="64" />
+            </div>
+            <form>
+                <input id="btnRoll" class="button" type="button" value="Roll" />
+                <br />
+                <input id="btnRestart" class="button" type="button" value="Restart" />
+                <br />
+                <input id="btnQuit" class="button" type="button" value="Quit" />
+            </form>
+        </main>
+        <script type="module" src="js/dw.js"></script>
+    </body>
+</html>

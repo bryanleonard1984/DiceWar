@@ -1,0 +1,99 @@
+/*Styles for elements*/
+body{
+    background-color:hsl(0, 0%, 10%);
+    color: hsl(135, 70%, 21%);
+    font-family: Arial;
+}
+
+h1{
+    background-color:hsl(0, 0%, 0%);
+    font-weight: bold;
+    text-align: center;
+    width: 510px;
+}
+
+h3{
+    text-align: center;
+    width: 510px;
+}
+
+form{
+    border: 2px solid hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 30%);
+    width: 100px;
+    position: fixed;
+    left: 200px;
+    top: 300px;
+}
+
+/*Class styles*/
+.dvscore{
+    border: 5px solid hsl(0, 0%, 0%);
+    width: 500px;
+    height: 60px;
+    position: fixed;
+    top: 120px;
+}
+
+.button{
+    width: 75px;
+    margin: 5px 10px 5px 10px;
+}
+
+/*Id styles*/
+#images{
+    border:5px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    width: 200px;
+    position: fixed;
+    left: 150px;
+    top: 200px;
+}
+
+#dieOne{
+    margin-left: 20px;
+}
+
+#dieTwo{
+    float: right;
+    margin-right: 20px;
+}
+
+#pl1{
+    position: fixed;
+    top: 115px;
+    left: 35px;
+}
+
+#pl2{
+    position: fixed;
+    top: 115px;
+    left: 400px;
+}
+
+#pl1b{
+    position: fixed;
+    top: 145px;
+    left: 35px;
+}
+
+#pl2b{
+    position: fixed;
+    top: 145px;
+    left: 400px;
+}
+
+#btnRoll:hover{
+    background-color: hsl(135, 70%, 21%);
+    font-weight: bold;
+}
+
+#btnRestart:hover{
+    background-color: hsl(45, 77%, 43%);
+    font-weight: bold;
+}
+
+#btnQuit:hover{
+    background-color: hsl(0,70%, 21%);
+    font-weight: bold;
+}
